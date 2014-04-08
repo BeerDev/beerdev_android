@@ -1,0 +1,19 @@
+package com.android.beerdev;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.util.Log;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+
+	
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.menu.main);
+	}
+
+	
+}
